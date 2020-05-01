@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - metalsmith-prism > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - metalsmith-yearly-pagination > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - handlebars > async > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - metalsmith-discover-helpers > fs-tools > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - metalsmith-discover-partials > fs-tools > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - jstransformer-handlebars > handlebars > async > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - metalsmith-discover-helpers > handlebars > async > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
+    - metalsmith-discover-partials > handlebars > async > lodash:
+        patched: '2020-05-01T05:19:53.733Z'
